@@ -426,6 +426,8 @@ class Human implements Workable, Eatable {
 }
 ```
 
+In the refactored example, the `Worker` interface has been split into two interfaces: `Workable` and `Eatable`. The `Robot` class implements the `Workable` interface, and the `Human` class implements both the `Workable` and `Eatable` interfaces. This adheres to the Interface Segregation Principle, as classes are not forced to implement methods they don't need.
+
 ```java
 //Example 2
 
@@ -461,8 +463,6 @@ class DishWasher implements DishWasher{
 
 // no any class is forced to implement any method which it doesn't need.
 ```
-
-In the refactored example, the `Worker` interface has been split into two interfaces: `Workable` and `Eatable`. The `Robot` class implements the `Workable` interface, and the `Human` class implements both the `Workable` and `Eatable` interfaces. This adheres to the Interface Segregation Principle, as classes are not forced to implement methods they don't need.
 
 ## Dependency Inversion Principle (DIP)
 
