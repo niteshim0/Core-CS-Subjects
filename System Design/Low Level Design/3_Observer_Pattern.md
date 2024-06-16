@@ -84,8 +84,7 @@ The UML diagram below illustrates the structure of the Observer Pattern:
             observer.update(state);
         }
     }
-  } 
-  ```
+  } ```
 
 3. **Implement Concrete Subject:**
    - Create a concrete implementation of the `Subject` interface that holds the actual state of interest.
