@@ -5,6 +5,7 @@ The CQRS (Command Query Responsibility Segregation) Pattern is a design pattern 
 ## Description
 
 In traditional architectures, the same data model is used to handle both read and write operations. The CQRS pattern, however, uses different models for updating (commands) and reading (queries) data. This separation allows each model to be optimized for its specific use case, leading to improved performance and scalability.
+![](https://imgs.search.brave.com/c3Qj3YM_XnRzfbtbjFM8RECucEtvEUa35KSapMI784A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZWVrc2Zvcmdl/ZWtzLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyNDAzMTMx/NjM5MTMvV2hhdC1p/cy1DUVJTLURlc2ln/bi1QYXR0ZXJuLndl/YnA)
 
 ### Key Concepts
 
